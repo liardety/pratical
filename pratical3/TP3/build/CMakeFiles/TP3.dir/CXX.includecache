@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/valeur.hpp
+utility
+-
+
+/home/etud/liardety/Documents/MODL/tp3/TP3/src/echantillon.cpp
+echantillon.hpp
+/home/etud/liardety/Documents/MODL/tp3/TP3/src/echantillon.hpp
+algorithm
+-
+
+/home/etud/liardety/Documents/MODL/tp3/TP3/src/echantillon.hpp
+vector
+-
+valeur.hpp
+-
+
