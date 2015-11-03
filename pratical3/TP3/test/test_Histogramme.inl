@@ -5,7 +5,7 @@
 // #include <histogramme.hpp>
 
 // Le type de l'histogramme va changer au cours du TP:
-//  - C'est une classe au départ,
+//  - C'est une classe au départ,dfd
 //  - Ensuite ça devient un template.
 // D'où le typedef:
 

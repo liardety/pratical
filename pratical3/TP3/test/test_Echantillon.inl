@@ -3,6 +3,7 @@
 
  #include <echantillon.hpp>
  #include <valeur.hpp>
+ #include <iostream>
 
 TEST ( TestEchantillon, Valeur ) {
 
@@ -34,8 +35,8 @@ TEST ( TestEchantillon, TailleMinMax ) {
  }
 
  EXPECT_EQ ( echantillon.taille(), 20 );
- EXPECT_EQ ( echantillon.max_double(), mini);
- EXPECT_EQ ( echantillon.min_double(), maxi);
+ EXPECT_EQ ( echantillon.max_double(), maxi);
+ EXPECT_EQ ( echantillon.min_double(), mini);
 
 }
 

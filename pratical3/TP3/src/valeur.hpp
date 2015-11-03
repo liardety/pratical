@@ -14,7 +14,7 @@ class Valeur
         inline Valeur(double val){nombre = val;}
         inline double getNombre() const {return nombre;}
         inline void setNombre(double value) {nombre = value;}
-        inline bool operator< (const Valeur &val){return nombre < val.getNombre();}
+        inline bool operator< (const Valeur &val) const{return nombre < val.getNombre();}
 
 };
 
